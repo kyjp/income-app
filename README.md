@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PEST分析
+外部環境分析のためのフレームワーク
+politics（政治） economy（経済） society（社会） technology（技術） の4つの外部環境分析をする
 
-## Getting Started
+経営戦略を見直すタイミングや新規プレジェクトに入るタイミングで使用する
+環境要因が自社に同様な影響を及ぼすのかを把握して予測するための分析ツール
 
-First, run the development server:
+## politics（政治）
+・法律・税制
+・国際動向
+市場競争のルールに影響
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## economy（経済）
+・景気・投資意欲
+・雇用、賃金
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## society（社会的要因）
+・人口の増減
+・文化・流行
+生活者の購買意欲に変化
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## technology（技術）
+・自動化・効率化
+・特許・イノベーション
+実現可能性に影響
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## PEST分析の進め方と手順
+自分たちでまず仮説を立てる
+自社やライバル、業界の課題を考える
+世の中の動きを網羅的に納得性をもって将来を予測する
 
-## Learn More
+目的の確認　チャンス・リスク
+↓
+情報収集　政治　経済　社会　技術
+↓
+分類・整理　ポジティブ・ネガティブ
+↓
+示唆だし　将来の予測・対策
 
-To learn more about Next.js, take a look at the following resources:
+## PEST分析の注意点
+・情報収集前に問題意識を持つ
+・変化の流れを知る
+・先を読む
+・ほかの要素との関連性を見る
+・もれなくダブりなく整理して、将来を予測する
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# SWOT分析とは
+内部環境・外部環境のポジティブ、ネガティブなことを調べる
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+自社の強み（内部環境のポジティブな要因）　他社に負けない要素
+自社の弱み（内部環境のネガティブな要因）　他社に勝てない要素
+機会（外部環境のポジティブな要因）　好景気、規制緩和などの自社にとって都合の良いこと
+脅威（外部環境のネガティブな要因）　新規参入、為替の影響などの自社にとって都合の悪い要素
 
-## Deploy on Vercel
+## SWOT分析の進め方
+### 分析対象と目的を決める
+- 分析する課題
+- 戦略を立てるアイデアなど
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+内部環境はコントロールしやすい
+
+### 基礎分析
+- 社内の価値創造
+- プロセスを整理する
+
+### 比較・評価
+プロセスを競合他社と比較（ベンチマーク）し、評価する
+
+有利な点 ＝ 「強み」
+不利な点 ＝ 「弱み」
+
+
+外部環境はコントロールできない
+### 基礎分析
+トレンドやニーズの変化をとらえる
+
+### 比較・評価
+変化を競合や新規参入者と比較し評価する
+
+有利な点＝「機会」
+不利な点＝「脅威」
+
+### 戦略立案
+勝てそうか
+どう戦うか
+武器は何か
+
+## SWOT分析の注意点
+- 敵は誰？
+昨日の敵がいつまでも敵とは限らない
+*** 比較する相手によって結果は違ってくる ***
+- 最重要プロセスは何？
+KSFでないところが強くても勝てない
+*** 勝負のポイントを見極めること ***
+- それって思い込み？
+できるから強いというわけではない
+*** 比較してはじめて気づく ***
+
+## ファイブフォース分析とは
+５つの「力」の関係の分析
+- 新規参入
+- 同業者
+- 買い手
+- 売り手
+- 代替品
+
+### 希少性
+世の中に限られた数量しかないリソース手が届くこと
+
+### 情報の非対称性
+自分たちだけが知りうる情報を保持すること
+
+### 業界の競争
+比較されると利益が減る
+
+### 新規参入の脅威
+ライバルが増えると取り分が減る
+
+参入障壁を構築することが重要なポイントになる
+
+#### 新規参入しやすい要素
+- 特殊なノウハウがいらない
+- 新しい業界など、まだ法律がなく規制が少ない
+- 開始時のコストが抑えられる
+- 流通ルートが確保されている
+
+#### 新規参入に対する対抗策
+- 企業や商品のブランド価値を高める
+- 流通経路を抑える
+- 経験値の高さにより生産効率を高める
+- 法律で定められた規制が緩和されないように働きかけること
+
+#### 業界の競争の激化の原因
+同業者が多いと競争が激しくなる
+- 同じ地域内や活動拠点に同業他社が多い
+- 製品や技術について一定程度の成長を終えていること
+- 安定した企業が多く業界全体としての成長があまりないこと
+- 人件費や広告費、在庫コストが多いこと
+- 製品の差別化が難しいこと
+- 買い手が今まで使っていた製品かた簡単にほかの製品に乗り換えが可能なこと
+
+#### 同業他社の交渉要素を下げるには
+- 品質価格デザインで他社より優位に立つこと
+- 流通経路を簡素化して入手しやすくすること
+- コストを徹底的にみなおすこと
+- ユニークな製品開発や特許など、他社がまねできない仕組みを構築すること
+
+### 買い手の脅威
+買ってくれる人が少ないと安くても売らないといけない→価格競争
+安定購入しているときや大量購入する能力があるときに強まる
+自社の売上高の比率が高いとき譲歩する必要が出てくる
+買い手の知識が豊富
+乗り換えを難しくする
+
+### 売り手の脅威
+なかなか手に入らない時は高く買わないといけない→値段交渉しにくい
+
+売り手の交渉力が強いとき
+
+- 売り手の交渉力を下げるには相見積もりが有効
+- 競合企業をちらつかせ、ほかの選択肢を示す
+- 売り手に対して大量発注をして売り上げの自社比率を高める
+- 代替品や新規参入企業の商品と比較すること
+
+### 代替品
+ほかの商品があると取り分が減る
+
+対策
+機能の高性能化　高品質化
+代替品をOEM（自社ブランドで出す）
+ターゲット層の再定義
+販売チャネルの維持
+自社商品の２次利用化
